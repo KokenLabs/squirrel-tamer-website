@@ -10,14 +10,33 @@ export default function EmailSignup({
   subheading?: string;
 }) {
   const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "submitted">("idle");
+  const [status, setStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // TODO: wire this up to your email provider (ConvertKit, Mailchimp, Beehiiv, etc).
-    // For now this just confirms the submission in the UI.
-    if (email) {
+    if (!email) return;
+
+    setStatus("submitting");
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        throw new Error(data?.error || "Something went wrong. Please try again.");
+      }
+
       setStatus("submitted");
+    } catch (err) {
+      setStatus("error");
+      setErrorMessage(err instanceof Error ? err.message : "Something went wrong. Please try again.");
     }
   }
 
@@ -49,11 +68,16 @@ export default function EmailSignup({
           />
           <button
             type="submit"
-            className="rounded-full bg-forest-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-forest-800"
+            disabled={status === "submitting"}
+            className="rounded-full bg-forest-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-forest-800 disabled:opacity-60"
           >
-            Join the list
+            {status === "submitting" ? "Joining..." : "Join the list"}
           </button>
         </form>
+      )}
+
+      {status === "error" && (
+        <p className="mt-3 text-sm font-medium text-red-600">{errorMessage}</p>
       )}
     </div>
   );
