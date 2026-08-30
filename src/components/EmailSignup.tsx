@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function EmailSignup({
-  heading = "Get the Playbook first.",
+  heading = "Get the S.O.S. Playbook first.",
   subheading = "Join the list for early chapters, the AI stack breakdown, and launch updates. No spam, just signal.",
 }: {
   heading?: string;

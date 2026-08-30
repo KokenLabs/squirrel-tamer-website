@@ -22,22 +22,23 @@ export default function AboutPage() {
           anymore — it can be tamed by a system.
         </p>
         <p>
-          <strong className="text-forest-900">Squirrel Tamer</strong> is that system: a
-          playbook, a community, and eventually a full toolkit for people with ADD,
-          ADHD, or just too many interests to count — built around using AI as a focus
-          partner instead of one more shiny distraction.
+          <strong className="text-forest-900">Squirrel Tamer</strong> is what came out
+          of that: a book, <em>The Squirrel Tamer</em>, that makes the case; the{" "}
+          <strong className="text-forest-900">S.O.S. Playbook</strong>, which is the
+          system you actually run; and a podcast and community around both — all built
+          on using AI as a focus partner instead of one more shiny distraction.
         </p>
         <p>
-          This site is just getting started, right alongside the book, the podcast, and
-          everything else in the Squirrel Tamer ecosystem. Sign up below to follow along
-          as it comes together.
+          This site is just getting started, right alongside the book, the Playbook,
+          the podcast, and everything else in the Squirrel Tamer ecosystem. Sign up
+          below to follow along as it comes together.
         </p>
       </div>
 
       <div className="mt-14">
         <EmailSignup
           heading="Follow the build."
-          subheading="Get updates as the Playbook, the book, and the rest of Squirrel Tamer come to life."
+          subheading="Get updates as the book, the S.O.S. Playbook, and the rest of Squirrel Tamer come to life."
         />
       </div>
     </div>
