@@ -1,21 +1,37 @@
+import Image from "next/image";
 import EmailSignup from "@/components/EmailSignup";
 
 export default function BookPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16 sm:py-24">
-      <p className="text-sm font-semibold uppercase tracking-widest text-acorn-600">
-        The Book
-      </p>
-      <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-forest-900 sm:text-5xl">
-        Squirrel Tamer: the book
-      </h1>
-      <p className="mt-6 text-lg leading-relaxed text-forest-800/85">
-        The full Squirrel Tamer Playbook — the mindset, the AI stack, and the
-        step-by-step system — is being written up as a book. It&apos;s for anyone who&apos;s
-        ever been told they have too many interests, and who&apos;s ready to let AI do the
-        taming instead of forcing themselves into a focus style that was never going to
-        stick.
-      </p>
+    <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
+      <div className="grid gap-10 sm:grid-cols-[280px_1fr] sm:items-start sm:gap-14">
+        <div className="mx-auto w-48 sm:mx-0 sm:w-full">
+          <Image
+            src="/images/book-cover.jpg"
+            alt="The Squirrel Tamer book cover — How to Make S.O.S. (Shiny Object Syndrome) Your Superpower, by Steve Haycock"
+            width={900}
+            height={1350}
+            className="w-full rounded-xl shadow-xl ring-1 ring-black/10"
+            priority
+          />
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-widest text-acorn-600">
+            The Book
+          </p>
+          <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-forest-900 sm:text-5xl">
+            Squirrel Tamer: the book
+          </h1>
+          <p className="mt-6 text-lg leading-relaxed text-forest-800/85">
+            The full Squirrel Tamer Playbook — the mindset, the AI stack, and the
+            step-by-step system — is being written up as a book. It&apos;s for anyone who&apos;s
+            ever been told they have too many interests, and who&apos;s ready to let AI do the
+            taming instead of forcing themselves into a focus style that was never going to
+            stick.
+          </p>
+        </div>
+      </div>
 
       <div className="mt-10 grid gap-4 sm:grid-cols-3">
         <div className="rounded-2xl border border-acorn-200 bg-white p-5">
