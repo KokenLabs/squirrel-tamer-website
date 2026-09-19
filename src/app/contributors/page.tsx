@@ -88,6 +88,8 @@ const contributors: Contributor[] = [
     website: "ledgergurus.com",
     photo: "/images/contributors/brittany-drury-brown.jpg",
     linkedin: "https://www.linkedin.com/in/brittany-brown-b8324812/",
+    instagram: "https://www.instagram.com/britt_any80/",
+    facebook: "https://www.facebook.com/brittany.d.brown.37",
   },
   {
     name: "Scott Schwab",
