@@ -94,6 +94,13 @@ const contributors: Contributor[] = [
     website: "menofthewolfpack.com",
     photo: "/images/contributors/christopher-stubbs.jpg",
   },
+  {
+    name: "Spencer Oberan",
+    title: "Co-Founder",
+    company: "Enerflo",
+    website: "enerflo.com",
+    photo: "/images/contributors/spencer-oberan.jpg",
+  },
 ];
 
 function initials(name: string) {
