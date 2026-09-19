@@ -117,6 +117,8 @@ const contributors: Contributor[] = [
     website: "fusionspecialtypharmacy.com",
     photo: "/images/contributors/koby-taylor.jpg",
     linkedin: "https://www.linkedin.com/in/kobytaylor/",
+    instagram: "https://www.instagram.com/kobytay/",
+    facebook: "https://www.facebook.com/koby.taylor.923",
   },
   {
     name: "Christopher John Stubbs",
