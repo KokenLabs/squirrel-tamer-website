@@ -31,6 +31,13 @@ const contributors: Contributor[] = [
     website: "photonac.com",
     photo: "/images/contributors/jesse-gee.jpg",
   },
+  {
+    name: "Justin Prince",
+    title: "Founder",
+    company: "MAKE Wellness",
+    website: "makewellness.com",
+    photo: "/images/contributors/justin-prince.jpg",
+  },
 ];
 
 function initials(name: string) {
