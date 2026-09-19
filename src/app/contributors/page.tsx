@@ -143,6 +143,13 @@ const contributors: Contributor[] = [
     website: null,
     photo: "/images/contributors/jason-brown.jpg",
   },
+  {
+    name: "Chad Garner",
+    title: "President",
+    company: "Investview",
+    website: "investview.com",
+    photo: "/images/contributors/chad-garner.jpg",
+  },
 ];
 
 function initials(name: string) {
