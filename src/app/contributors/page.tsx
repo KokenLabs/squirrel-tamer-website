@@ -191,6 +191,8 @@ const contributors: Contributor[] = [
     website: "newwave.realestate",
     photo: "/images/contributors/braden-breinholt.jpg",
     linkedin: "https://www.linkedin.com/in/bradenbreinholt/",
+    instagram: "https://www.instagram.com/s_brady_b/",
+    facebook: "https://www.facebook.com/SBradyB",
   },
   {
     name: 'Tony "Mojo" Lucero',
