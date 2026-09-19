@@ -52,6 +52,13 @@ const contributors: Contributor[] = [
     website: "scalevirtually.com",
     photo: "/images/contributors/sean-connolly.jpg",
   },
+  {
+    name: "Anthon Burbidge",
+    title: "CEO",
+    company: "BC Timbers",
+    website: "bctimbers.com",
+    photo: "/images/contributors/anthon-burbidge.jpg",
+  },
 ];
 
 function initials(name: string) {
