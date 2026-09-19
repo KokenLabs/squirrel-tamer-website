@@ -87,6 +87,13 @@ const contributors: Contributor[] = [
     website: "fusionspecialtypharmacy.com",
     photo: "/images/contributors/koby-taylor.jpg",
   },
+  {
+    name: "Christopher John Stubbs",
+    title: "Founder",
+    company: "Men of the Wolf Pack",
+    website: "menofthewolfpack.com",
+    photo: "/images/contributors/christopher-stubbs.jpg",
+  },
 ];
 
 function initials(name: string) {
