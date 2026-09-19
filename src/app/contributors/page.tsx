@@ -186,6 +186,15 @@ const contributors: Contributor[] = [
     instagram: "https://www.instagram.com/iamtonylucero",
     facebook: "https://www.facebook.com/iamtonylucero",
   },
+  {
+    name: "Adnan Khawaja",
+    title: "Founder & CEO",
+    company: "Sky Vista Consulting",
+    website: "skyvistaconsulting.com",
+    photo: "/images/contributors/adnan-khawaja.jpg",
+    linkedin: "https://www.linkedin.com/in/adnankhawaja/",
+    facebook: "https://www.facebook.com/coachadnan",
+  },
 ];
 
 const socialIcons: Record<string, JSX.Element> = {
