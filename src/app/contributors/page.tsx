@@ -73,6 +73,13 @@ const contributors: Contributor[] = [
     website: "mettwellness.com",
     photo: "/images/contributors/scott-schwab.jpg",
   },
+  {
+    name: "Andy Lund",
+    title: "Founder",
+    company: "VooDoo Hydration",
+    website: "voodoohydration.com",
+    photo: "/images/contributors/andy-lund.jpg",
+  },
 ];
 
 function initials(name: string) {
