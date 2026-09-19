@@ -47,6 +47,19 @@ const contributors: Contributor[] = [
     ],
   },
   {
+    name: "Justin Prince",
+    title: "Founder",
+    company: "MAKE Wellness",
+    website: "makewellness.com",
+    photo: "/images/contributors/justin-prince.jpg",
+    instagram: "https://www.instagram.com/iamjustinprince",
+    facebook: "https://www.facebook.com/iamjustinprince.vm",
+    linkedin: "https://www.linkedin.com/in/justinkprince/",
+    bio: [
+      "I help leaders and entrepreneurs learn to Intentionally unlock their personal Greatness. I am an experienced Business Leader with a demonstrated history in Business Strategy, Coaching, Speaking, Sales, E-commerce, and Networking.",
+    ],
+  },
+  {
     name: "Julio Daniel Hernandez",
     title: "CEO",
     company: "Enlight Energy",
@@ -69,19 +82,6 @@ const contributors: Contributor[] = [
       "Co-Founder & CEO of Photon AC, building solar-integrated hybrid mini-split & ducted HVAC systems distributed through a dealer network. Nearly 30 years founding and scaling companies across financial and home services industries — turning early-stage operations into category leaders through direct execution.",
       "Currently focused on: DC-native power architecture, dealer channel strategy, and go-to-market systems for next-gen HVAC.",
       "Open to connecting with HVAC dealers, solar installers, tiny home / ADU builders, and other channel partners.",
-    ],
-  },
-  {
-    name: "Justin Prince",
-    title: "Founder",
-    company: "MAKE Wellness",
-    website: "makewellness.com",
-    photo: "/images/contributors/justin-prince.jpg",
-    instagram: "https://www.instagram.com/iamjustinprince",
-    facebook: "https://www.facebook.com/iamjustinprince.vm",
-    linkedin: "https://www.linkedin.com/in/justinkprince/",
-    bio: [
-      "I help leaders and entrepreneurs learn to Intentionally unlock their personal Greatness. I am an experienced Business Leader with a demonstrated history in Business Strategy, Coaching, Speaking, Sales, E-commerce, and Networking.",
     ],
   },
   {
@@ -109,16 +109,6 @@ const contributors: Contributor[] = [
     ],
   },
   {
-    name: "Anthon Burbidge",
-    title: "CEO",
-    company: "BC Timbers",
-    website: "bctimbers.com",
-    photo: "/images/contributors/anthon-burbidge.jpg",
-    linkedin: "https://www.linkedin.com/in/anthon-burbidge-03428734/",
-    instagram: "https://www.instagram.com/bctimbers",
-    facebook: "https://www.facebook.com/bctimbers",
-  },
-  {
     name: "Brittany Drury Brown",
     title: "CEO",
     company: "LedgerGurus",
@@ -127,6 +117,16 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/brittany-brown-b8324812/",
     instagram: "https://www.instagram.com/britt_any80/",
     facebook: "https://www.facebook.com/brittany.d.brown.37",
+  },
+  {
+    name: "Anthon Burbidge",
+    title: "CEO",
+    company: "BC Timbers",
+    website: "bctimbers.com",
+    photo: "/images/contributors/anthon-burbidge.jpg",
+    linkedin: "https://www.linkedin.com/in/anthon-burbidge-03428734/",
+    instagram: "https://www.instagram.com/bctimbers",
+    facebook: "https://www.facebook.com/bctimbers",
   },
   {
     name: "Scott Schwab",
