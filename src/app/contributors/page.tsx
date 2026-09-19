@@ -115,6 +115,9 @@ const contributors: Contributor[] = [
     company: "Men of the Wolf Pack",
     website: "menofthewolfpack.com",
     photo: "/images/contributors/christopher-stubbs.jpg",
+    linkedin: "https://www.linkedin.com/in/christopherjohnstubbs/",
+    instagram: "https://www.instagram.com/christopherjohnstubbs/",
+    facebook: "https://www.facebook.com/christopherjohnascending/",
   },
   {
     name: "Spencer Oberan",
