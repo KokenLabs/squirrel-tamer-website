@@ -38,6 +38,13 @@ const contributors: Contributor[] = [
     website: "makewellness.com",
     photo: "/images/contributors/justin-prince.jpg",
   },
+  {
+    name: "Tyler Bastian",
+    title: "CEO",
+    company: "Ruined",
+    website: "theruinedproject.com",
+    photo: "/images/contributors/tyler-bastian.jpg",
+  },
 ];
 
 function initials(name: string) {
