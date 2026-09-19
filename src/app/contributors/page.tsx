@@ -52,6 +52,9 @@ const contributors: Contributor[] = [
     company: "Ruined",
     website: "theruinedproject.com",
     photo: "/images/contributors/tyler-bastian.jpg",
+    linkedin: "https://www.linkedin.com/in/tyler-bastian-3787b12b/",
+    instagram: "https://www.instagram.com/ty.bastian/",
+    facebook: "https://www.facebook.com/tyler.bastian.16",
   },
   {
     name: "Sean Connolly",
