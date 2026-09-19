@@ -24,7 +24,7 @@ export default function AboutPage() {
         <p>
           <strong className="text-forest-900">Squirrel Tamer</strong> is what came out
           of that: a book, <em>The Squirrel Tamer</em>, that makes the case; the{" "}
-          <strong className="text-forest-900">ST Playbook</strong>, which is the
+          <strong className="text-forest-900">Tamer Playbook</strong>, which is the
           system you actually run; and a podcast and community around both — all built
           on using AI as a focus partner instead of one more shiny distraction.
         </p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
       <div className="mt-14">
         <EmailSignup
           heading="Follow the build."
-          subheading="Get updates as the book, the ST Playbook, and the rest of Squirrel Tamer come to life."
+          subheading="Get updates as the book, the Tamer Playbook, and the rest of Squirrel Tamer come to life."
         />
       </div>
     </div>

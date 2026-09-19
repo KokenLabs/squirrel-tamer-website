@@ -11,7 +11,7 @@ const steps = [
     body: "Set up an AI stack that acts as your focus copilot: triaging, drafting, researching, and reminding — so willpower isn't the only thing holding your day together.",
   },
   {
-    title: "Run the ST Playbook",
+    title: "Run the Tamer Playbook",
     body: "Follow a repeatable system for turning scattered interest into shipped work, one sprint at a time — without forcing yourself to 'just focus more.'",
   },
 ];
@@ -33,7 +33,7 @@ const pillars = [
   },
   {
     label: "The Method",
-    title: "ST Playbook",
+    title: "Tamer Playbook",
     body: "The five-phase system itself: capture, deputize, sprint, ship, repeat. The practical, run-it-this-week version.",
     href: "/playbook",
     cta: "See the Playbook",
@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-16 sm:pt-24">
         <div className="max-w-3xl">
           <p className="inline-flex items-center gap-2 rounded-full bg-forest-100 px-4 py-1.5 text-sm font-semibold text-forest-700">
-            🐿️ Coming soon — The Squirrel Tamer &amp; the ST Playbook
+            🐿️ Coming soon — The Squirrel Tamer &amp; the Tamer Playbook
           </p>
           <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-forest-900 sm:text-6xl">
             AI is the tool that tames the squirrel.
@@ -74,7 +74,7 @@ export default function HomePage() {
               href="/playbook"
               className="rounded-full border border-forest-700/30 px-6 py-3 font-semibold text-forest-800 transition hover:border-forest-700"
             >
-              See the ST Playbook
+              See the Tamer Playbook
             </Link>
           </div>
         </div>

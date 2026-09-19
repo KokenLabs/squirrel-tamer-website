@@ -30,7 +30,7 @@ const phases = [
     number: "05",
     title: "Repeat",
     tagline: "Build the system, not just the streak.",
-    body: "The ST Playbook is a loop, not a one-time fix. Each cycle gets easier as your AI stack learns your patterns and your capture-to-ship system gets more automatic.",
+    body: "The Tamer Playbook is a loop, not a one-time fix. Each cycle gets easier as your AI stack learns your patterns and your capture-to-ship system gets more automatic.",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function PlaybookPage() {
         The Method
       </p>
       <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-forest-900 sm:text-5xl">
-        ST Playbook
+        Tamer Playbook
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-forest-800/85">
         A five-phase system for turning a scattered, idea-rich brain into consistent,
@@ -88,7 +88,7 @@ export default function PlaybookPage() {
 
       <div className="mt-16">
         <EmailSignup
-          heading="Be first to run the ST Playbook."
+          heading="Be first to run the Tamer Playbook."
           subheading="Get the full Playbook, the templates, and the AI stack breakdown as they're released."
         />
       </div>
