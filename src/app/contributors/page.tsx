@@ -184,6 +184,8 @@ const contributors: Contributor[] = [
     website: "ppgpropertymanagement.com",
     photo: "/images/contributors/pat-petrini.jpg",
     linkedin: "https://www.linkedin.com/in/patpetrini/",
+    instagram: "https://www.instagram.com/patpetrini/",
+    facebook: "https://www.facebook.com/PatPetrini",
   },
   {
     name: "Jason Brown",
