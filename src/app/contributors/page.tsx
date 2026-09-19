@@ -129,6 +129,13 @@ const contributors: Contributor[] = [
     website: "simplybilt.com",
     photo: "/images/contributors/steven-frame.jpg",
   },
+  {
+    name: "Pat Petrini",
+    title: "Sales & Operations Manager",
+    company: "PPG Property Management",
+    website: "ppgpropertymanagement.com",
+    photo: "/images/contributors/pat-petrini.jpg",
+  },
 ];
 
 function initials(name: string) {
