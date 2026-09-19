@@ -98,6 +98,8 @@ const contributors: Contributor[] = [
     website: "mettwellness.com",
     photo: "/images/contributors/scott-schwab.jpg",
     linkedin: "https://www.linkedin.com/in/scott-schwab-8306713/",
+    instagram: "https://www.instagram.com/schwabscott/",
+    facebook: "https://www.facebook.com/scott.schwab.50",
   },
   {
     name: "Andy Lund",
