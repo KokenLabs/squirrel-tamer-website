@@ -19,6 +19,9 @@ const contributors: Contributor[] = [
     company: "Beacon of Hope",
     website: "beaconofhope.org",
     photo: "/images/contributors/alan-jackson.jpg",
+    linkedin: "https://www.linkedin.com/in/talan-jackson/",
+    instagram: "https://www.instagram.com/alanjacksonphilanthropy/",
+    facebook: "https://www.facebook.com/alanjacksonH3/",
   },
   {
     name: "Julio Daniel Hernandez",
