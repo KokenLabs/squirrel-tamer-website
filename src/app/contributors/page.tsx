@@ -101,6 +101,13 @@ const contributors: Contributor[] = [
     website: "enerflo.com",
     photo: "/images/contributors/spencer-oberan.jpg",
   },
+  {
+    name: "Paul Hatch",
+    title: "President",
+    company: "Allies",
+    website: "alliesusa.com",
+    photo: "/images/contributors/paul-hatch.jpg",
+  },
 ];
 
 function initials(name: string) {
