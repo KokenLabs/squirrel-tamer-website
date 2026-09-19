@@ -157,6 +157,9 @@ const contributors: Contributor[] = [
     company: "Simply Bilt",
     website: "simplybilt.com",
     photo: "/images/contributors/steven-frame.jpg",
+    linkedin: "https://www.linkedin.com/in/thefraamer/",
+    instagram: "https://www.instagram.com/thefraamer/",
+    facebook: "https://www.facebook.com/TheFraamer",
   },
   {
     name: "Pat Petrini",
