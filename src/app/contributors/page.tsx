@@ -117,6 +117,11 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/brittany-brown-b8324812/",
     instagram: "https://www.instagram.com/britt_any80/",
     facebook: "https://www.facebook.com/brittany.d.brown.37",
+    bio: [
+      "Brittany founded LedgerGurus in 2014 after seeing a need to serve small businesses and having a desire to create a flexible work environment for others like her. Brittany will say she never intended to start a company or be an entrepreneur, but she has quietly been creating things for many years.",
+      "Brittany earned a Bachelor of Science in Accounting and a Master of Accountancy from Brigham Young University. After an internship at KPMG, Brittany worked at Squire in their advisory services group, and then as the CFO for DSB Construction, before founding LedgerGurus. Brittany is a CPA and QuickBooks ProAdvisor, certified in QuickBooks Online Advanced and QuickBooks Enterprise.",
+      "In her role, Brittany drives many strategic initiatives and relationships at LedgerGurus. She also convinced Stephen, COO and husband, to ditch his software career and join LedgerGurus full-time.",
+    ],
   },
   {
     name: "Anthon Burbidge",
@@ -156,6 +161,10 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/kobytaylor/",
     instagram: "https://www.instagram.com/kobytay/",
     facebook: "https://www.facebook.com/koby.taylor.923",
+    bio: [
+      "A St. George native, Koby is a graduate from Brigham Young University and the University of Utah, where he received his Doctorate of Pharmacy in 2000. He has managed several successful retail pharmacies and loves being an advocate for his patients. He is extremely excited about providing compounded medications to the community he serves.",
+      "“Fusion Specialty Pharmacy is the only pharmacy in Southern Utah certified by the Pharmacy Compounding Accreditation Board (PCAB). We take pride in our high-quality ingredients, unique formulations, pharmacists, staff, and state of the art laboratory facilities.”",
+    ],
   },
   {
     name: "Christopher John Stubbs",
@@ -223,6 +232,9 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/patpetrini/",
     instagram: "https://www.instagram.com/patpetrini/",
     facebook: "https://www.facebook.com/PatPetrini",
+    bio: [
+      "If there’s anything that isn’t working, it’s Pat’s fault! Pat is constantly fine-tuning our systems & processes with the obsession of a master watchmaker. When he’s not tinkering with our processes, he’s out there turning curious property owners into happy clients.",
+    ],
   },
   {
     name: "Jason Brown",
@@ -261,6 +273,11 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/tonylucero/",
     instagram: "https://www.instagram.com/iamtonylucero",
     facebook: "https://www.facebook.com/iamtonylucero",
+    bio: [
+      "Over 2 decades ago, Tony realized something powerful—you can be successful on the outside and still feel completely drained inside. That wake-up call became the spark that ignited his personal transformation—and the creation of this guide.",
+      "Today, Tony is a Peak Potential Activator, Hypnotherapist and Master Trainer, helping thousands of people around the world awaken their inner power and step into their most vibrant, aligned life. His mission? To help you stop settling and start vibrating higher—mentally, emotionally, and energetically.",
+      "Tony’s approach combines real-world experience, spiritual wisdom, and practical tools that create real shifts. He’s worked with entrepreneurs, creatives, and everyday seekers looking for more clarity, joy, and alignment. “When you shift your energy, everything else follows.”",
+    ],
   },
   {
     name: "Adnan Khawaja",
