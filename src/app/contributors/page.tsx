@@ -24,6 +24,13 @@ const contributors: Contributor[] = [
     website: "enlight.energy",
     photo: "/images/contributors/julio-daniel-hernandez.jpg",
   },
+  {
+    name: "Jesse Gee",
+    title: "Co-Founder & CEO",
+    company: "Photon AC",
+    website: "photonac.com",
+    photo: "/images/contributors/jesse-gee.jpg",
+  },
 ];
 
 function initials(name: string) {
