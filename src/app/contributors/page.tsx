@@ -108,6 +108,7 @@ const contributors: Contributor[] = [
     website: "voodoohydration.com",
     photo: "/images/contributors/andy-lund.jpg",
     linkedin: "https://www.linkedin.com/in/andy-lund-8a915a23/",
+    facebook: "https://www.facebook.com/andy.lund.5201",
   },
   {
     name: "Koby Taylor",
