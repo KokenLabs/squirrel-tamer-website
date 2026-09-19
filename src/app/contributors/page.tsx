@@ -300,11 +300,8 @@ function initials(name: string) {
 export default function ContributorsPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
-      <p className="text-sm font-semibold uppercase tracking-widest text-acorn-600">
-        Contributors
-      </p>
-      <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-forest-900 sm:text-5xl">
-        The people behind the book
+      <h1 className="text-4xl font-extrabold tracking-tight text-forest-900 sm:text-5xl">
+        Certified Tamers
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-forest-800/85">
         The Squirrel Tamer is built on conversations. These are the people who sat down
