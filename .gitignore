@@ -5,3 +5,26 @@ out
 .env*.local
 *.log
 .DS_Store
+
+# Book raw material — personal, keep out of the public repo
+book/
+
+# Trip footage — large media, never commit
+Trip-1-Footage/
+Trip-2-Footage/
+
+# Interview / book working material at project root — keep out of the public repo
+*.zip
+Day-*-Distillation-*.md
+*-Field-Guide.md
+*-Field-Guide.pdf
+Squirrel-Analogy-Bank.md
+Squirrel-Tamer-Book-Framework.md
+Squirrel-Tamer-Research-Foundation.md
+Squirrel-Tamer-Trip-*.pdf
+*.url
+
+# Cover art source files (large)
+SOS1.png
+SOS2.png
+tsconfig.tsbuildinfo

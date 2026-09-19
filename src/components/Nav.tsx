@@ -6,6 +6,7 @@ const links = [
   { href: "/book", label: "The Book" },
   { href: "/playbook", label: "S.O.S. Playbook" },
   { href: "/podcast", label: "Podcast" },
+  { href: "/contributors", label: "Contributors" },
 ];
 
 export default function Nav() {
@@ -16,7 +17,7 @@ export default function Nav() {
           <span aria-hidden="true">🐿️</span>
           Squirrel Tamer
         </Link>
-        <nav className="hidden gap-8 text-sm font-medium text-forest-800/80 sm:flex">
+        <nav className="hidden gap-6 text-sm font-medium text-forest-800/80 md:flex">
           {links.map((link) => (
             <Link key={link.href} href={link.href} className="transition hover:text-acorn-600">
               {link.label}
