@@ -164,6 +164,8 @@ const contributors: Contributor[] = [
     website: "1degreeofseparation.life",
     photo: "/images/contributors/brad-bonar.jpg",
     linkedin: "https://www.linkedin.com/in/brad-bonar-jr-25075074/",
+    instagram: "https://www.instagram.com/onedegree.official/",
+    facebook: "https://www.facebook.com/brad.bonar",
   },
   {
     name: "Steven Frame",
