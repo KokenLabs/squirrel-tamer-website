@@ -175,6 +175,9 @@ const contributors: Contributor[] = [
     company: "Root Optimization",
     website: null,
     photo: "/images/contributors/jason-brown.jpg",
+    linkedin: "https://www.linkedin.com/in/jasonbrownmarketing/",
+    instagram: "https://www.instagram.com/j_son_brown/",
+    facebook: "https://www.facebook.com/jason.brown2",
   },
   {
     name: "Chad Garner",
