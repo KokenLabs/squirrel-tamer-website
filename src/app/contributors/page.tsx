@@ -80,6 +80,9 @@ const contributors: Contributor[] = [
     instagram: "https://www.instagram.com/iamjustinprince",
     facebook: "https://www.facebook.com/iamjustinprince.vm",
     linkedin: "https://www.linkedin.com/in/justinkprince/",
+    bio: [
+      "I help leaders and entrepreneurs learn to Intentionally unlock their personal Greatness. I am an experienced Business Leader with a demonstrated history in Business Strategy, Coaching, Speaking, Sales, E-commerce, and Networking.",
+    ],
   },
   {
     name: "Tyler Bastian",
