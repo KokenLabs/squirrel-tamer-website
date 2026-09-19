@@ -59,6 +59,13 @@ const contributors: Contributor[] = [
     website: "bctimbers.com",
     photo: "/images/contributors/anthon-burbidge.jpg",
   },
+  {
+    name: "Brittany Drury Brown",
+    title: "CEO",
+    company: "LedgerGurus",
+    website: "ledgergurus.com",
+    photo: "/images/contributors/brittany-drury-brown.jpg",
+  },
 ];
 
 function initials(name: string) {
