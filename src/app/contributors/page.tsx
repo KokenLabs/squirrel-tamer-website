@@ -233,6 +233,7 @@ const contributors: Contributor[] = [
     photo: "/images/contributors/adnan-khawaja.jpg",
     linkedin: "https://www.linkedin.com/in/adnankhawaja/",
     facebook: "https://www.facebook.com/coachadnan",
+    instagram: "https://www.instagram.com/skyvistaconsulting",
   },
 ];
 
