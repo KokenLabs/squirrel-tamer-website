@@ -45,6 +45,13 @@ const contributors: Contributor[] = [
     website: "theruinedproject.com",
     photo: "/images/contributors/tyler-bastian.jpg",
   },
+  {
+    name: "Sean Connolly",
+    title: "CEO",
+    company: "Scale Virtually",
+    website: "scalevirtually.com",
+    photo: "/images/contributors/sean-connolly.jpg",
+  },
 ];
 
 function initials(name: string) {
