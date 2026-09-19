@@ -108,6 +108,13 @@ const contributors: Contributor[] = [
     website: "alliesusa.com",
     photo: "/images/contributors/paul-hatch.jpg",
   },
+  {
+    name: "Rhett Robison",
+    title: "Owner",
+    company: "StoneWorld Supply",
+    website: "stoneworldsupply.com",
+    photo: "/images/contributors/rhett-robison.jpg",
+  },
 ];
 
 function initials(name: string) {
