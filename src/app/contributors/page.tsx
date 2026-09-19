@@ -101,6 +101,12 @@ const contributors: Contributor[] = [
     website: "scalevirtually.com",
     photo: "/images/contributors/sean-connolly.jpg",
     linkedin: "https://www.linkedin.com/in/sean-connolly-950128",
+    bio: [
+      "You’ve built a real business — but it still depends on you. Your team still comes to you for answers, the processes are still in your head, and too much low-value work still lands back on your desk. That is the founder bottleneck.",
+      "At Scale Virtually, we help founders get out of the weeds by building the systems, SOPs, roles, and virtual assistant support needed to move work off their desk without losing control. We do not just place a VA — a person without a process usually creates more management for the founder — so we start with the operating structure first: what work needs to leave the founder’s plate, what process needs documenting, what role should own it, and what reporting loop keeps the founder informed without being dragged back in.",
+      "I know this problem because I lived it. I went from being the Chief-Everything-Officer in my own company — working 12-hour days, managing chaos, and keeping too much of the business in my head — to building self-managing teams, documented systems, and companies that could scale with less of me in the middle. That shift helped me grow from about $2M in revenue to about $20M, work closer to 1 hour a day, and build multiple 8-figure businesses generating over $100M in total company revenue.",
+      "If your business is growing but everything still runs through you, the answer is not always to hire more people. Sometimes the next move is a better process, a clearer role, a stronger handoff, or the right VA. The key is knowing what to fix first.",
+    ],
   },
   {
     name: "Anthon Burbidge",
