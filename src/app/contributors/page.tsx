@@ -15,7 +15,7 @@ const contributors: Contributor[] = [
     title: "Chairman of the Board / CEO",
     company: "Beacon of Hope",
     website: "beaconofhope.org",
-    photo: null,
+    photo: "/images/contributors/alan-jackson.jpg",
   },
 ];
 

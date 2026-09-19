@@ -24,7 +24,10 @@ Squirrel-Tamer-Research-Foundation.md
 Squirrel-Tamer-Trip-*.pdf
 *.url
 
-# Cover art source files (large)
-SOS1.png
-SOS2.png
+# Source images dropped at the project root (originals, downloads).
+# Only images under public/ belong in the repo.
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
 tsconfig.tsbuildinfo
