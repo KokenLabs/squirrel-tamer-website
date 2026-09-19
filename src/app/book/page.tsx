@@ -54,7 +54,7 @@ export default function BookPage() {
           <p className="mt-1 text-sm text-forest-800/75">
             The story behind S.O.S., the full{" "}
             <Link href="/playbook" className="font-semibold text-acorn-600 hover:text-acorn-700">
-              S.O.S. Playbook
+              ST Playbook
             </Link>
             , a practical AI stack, and templates you can run immediately.
           </p>
