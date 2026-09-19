@@ -150,6 +150,13 @@ const contributors: Contributor[] = [
     website: "investview.com",
     photo: "/images/contributors/chad-garner.jpg",
   },
+  {
+    name: "Braden Breinholt",
+    title: "Managing Partner",
+    company: "New Wave Real Estate",
+    website: "newwave.realestate",
+    photo: "/images/contributors/braden-breinholt.jpg",
+  },
 ];
 
 function initials(name: string) {
