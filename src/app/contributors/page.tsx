@@ -1,5 +1,6 @@
 import Image from "next/image";
 import EmailSignup from "@/components/EmailSignup";
+import BioModal from "@/components/BioModal";
 
 type Contributor = {
   name: string;
@@ -10,6 +11,7 @@ type Contributor = {
   linkedin?: string;
   instagram?: string;
   facebook?: string;
+  bio?: string[];
 };
 
 const contributors: Contributor[] = [
@@ -22,6 +24,11 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/talan-jackson/",
     instagram: "https://www.instagram.com/alanjacksonphilanthropy/",
     facebook: "https://www.facebook.com/alanjacksonH3/",
+    bio: [
+      "Alan Jackson’s work with Hearts and Hands for Humanity over the past decade ignited a deeper calling to expand his impact. Beacon of Hope was born from that inspiration—an opportunity to do more, reach more, and provide for those who cannot provide for themselves. His passion lies in lifting others and creating real, lasting change in communities around the world.",
+      "With over 30 years of business experience, including leadership in the construction industry, real estate, and financial planning, Alan brings both vision and execution to the mission. His humanitarian work has taken him on more than 40 trips to Eastern Africa, where he has been directly involved in life-changing projects that provide essential resources to those in greatest need.",
+      "One of the most defining moments in Alan’s journey is witnessing clean water flow for the first time from a newly drilled well—seeing mothers line up with buckets, knowing their children’s lives have just changed. These experiences fuel his vision for Beacon of Hope: to raise significant resources for charities, uplift families out of poverty, and create opportunities for people—especially the next generation—to become deeply involved in giving. To Alan, hope is the belief that something better is always possible. Outside of his humanitarian work, he enjoys playing the drums and sharing his experiences through his book, Say Yes to the Lord, If You Dare.",
+    ],
   },
   {
     name: "Julio Daniel Hernandez",
@@ -343,6 +350,15 @@ export default function ContributorsPage() {
             ) : null}
 
             <SocialLinks person={person} />
+
+            {person.bio ? (
+              <BioModal
+                name={person.name}
+                title={person.title}
+                company={person.company}
+                bio={person.bio}
+              />
+            ) : null}
           </div>
         ))}
       </div>
