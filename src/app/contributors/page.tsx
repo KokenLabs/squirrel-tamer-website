@@ -80,6 +80,13 @@ const contributors: Contributor[] = [
     website: "voodoohydration.com",
     photo: "/images/contributors/andy-lund.jpg",
   },
+  {
+    name: "Koby Taylor",
+    title: "Founder",
+    company: "Fusion Specialty Pharmacy",
+    website: "fusionspecialtypharmacy.com",
+    photo: "/images/contributors/koby-taylor.jpg",
+  },
 ];
 
 function initials(name: string) {
