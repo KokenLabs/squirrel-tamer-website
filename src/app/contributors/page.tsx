@@ -65,6 +65,11 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/jessegeeaz/",
     facebook: "https://www.facebook.com/jessegeeaz",
     instagram: "https://www.instagram.com/jessegeearizona/",
+    bio: [
+      "Co-Founder & CEO of Photon AC, building solar-integrated hybrid mini-split & ducted HVAC systems distributed through a dealer network. Nearly 30 years founding and scaling companies across financial and home services industries — turning early-stage operations into category leaders through direct execution.",
+      "Currently focused on: DC-native power architecture, dealer channel strategy, and go-to-market systems for next-gen HVAC.",
+      "Open to connecting with HVAC dealers, solar installers, tiny home / ADU builders, and other channel partners.",
+    ],
   },
   {
     name: "Justin Prince",
