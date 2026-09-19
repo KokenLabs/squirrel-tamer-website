@@ -212,6 +212,12 @@ const contributors: Contributor[] = [
     linkedin: "https://www.linkedin.com/in/brad-bonar-jr-25075074/",
     instagram: "https://www.instagram.com/onedegree.official/",
     facebook: "https://www.facebook.com/brad.bonar",
+    bio: [
+      "Brad Bonar, Jr. is a comedian and the creator of 1 Degree of Separation.",
+      "“A few years ago I found a suicide note that I wrote in the 6th grade. At first I kinda laughed about it, but then it became very sobering to think that I’m now in my 60’s, I’ve struggled at least since the 6th grade, and it’s only been the past few years that I’ve seriously addressed my depression.",
+      "That note got me started on a quest to put together a comedy show about depression and suicide. I’ve spent the past 25 years traveling the world making people laugh. Now I’m using my talents for something more personal. It’s time to cast a spotlight that removes the stigma of mental illness.",
+      "I’ve interviewed doctors and mental health professionals to help format the show so that we as comics can talk about the topics that are so taboo in our society. As comedians we’ll talk about anything on stage, so why not this?”",
+    ],
   },
   {
     name: "Steven Frame",
@@ -249,8 +255,8 @@ const contributors: Contributor[] = [
   {
     name: "Chad Garner",
     title: "President",
-    company: "Investview",
-    website: "investview.com",
+    company: "Conectiv",
+    website: "conectivglobal.com",
     photo: "/images/contributors/chad-garner.jpg",
     linkedin: "https://www.linkedin.com/in/chadgarner1/",
   },
