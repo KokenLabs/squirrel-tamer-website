@@ -115,6 +115,13 @@ const contributors: Contributor[] = [
     website: "stoneworldsupply.com",
     photo: "/images/contributors/rhett-robison.jpg",
   },
+  {
+    name: "Brad Bonar",
+    title: "Founder",
+    company: "1 Degree",
+    website: "1degreeofseparation.life",
+    photo: "/images/contributors/brad-bonar.jpg",
+  },
 ];
 
 function initials(name: string) {
