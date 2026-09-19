@@ -137,6 +137,7 @@ const contributors: Contributor[] = [
     website: "enerflo.com",
     photo: "/images/contributors/spencer-oberan.jpg",
     linkedin: "https://www.linkedin.com/in/spencer-oberan-3734902b/",
+    facebook: "https://www.facebook.com/spencer.oberan",
   },
   {
     name: "Paul Hatch",
