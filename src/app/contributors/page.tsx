@@ -34,6 +34,8 @@ const contributors: Contributor[] = [
     company: "Photon AC",
     website: "photonac.com",
     photo: "/images/contributors/jesse-gee.jpg",
+    linkedin: "https://www.linkedin.com/in/jessegeeaz/",
+    facebook: "https://www.facebook.com/jessegeeaz",
   },
   {
     name: "Justin Prince",
@@ -175,6 +177,7 @@ const contributors: Contributor[] = [
     company: "New Wave Real Estate",
     website: "newwave.realestate",
     photo: "/images/contributors/braden-breinholt.jpg",
+    linkedin: "https://www.linkedin.com/in/bradenbreinholt/",
   },
   {
     name: 'Tony "Mojo" Lucero',
