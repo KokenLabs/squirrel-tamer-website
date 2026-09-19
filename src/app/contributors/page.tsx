@@ -146,6 +146,8 @@ const contributors: Contributor[] = [
     website: "alliesusa.com",
     photo: "/images/contributors/paul-hatch.jpg",
     linkedin: "https://www.linkedin.com/in/paul-hatch-84b4608/",
+    instagram: "https://www.instagram.com/lphatch/",
+    facebook: "https://www.facebook.com/paul.hatch.37",
   },
   {
     name: "Rhett Robison",
