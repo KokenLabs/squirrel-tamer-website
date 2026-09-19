@@ -41,6 +41,7 @@ const contributors: Contributor[] = [
     photo: "/images/contributors/jesse-gee.jpg",
     linkedin: "https://www.linkedin.com/in/jessegeeaz/",
     facebook: "https://www.facebook.com/jessegeeaz",
+    instagram: "https://www.instagram.com/jessegeearizona/",
   },
   {
     name: "Justin Prince",
@@ -50,6 +51,7 @@ const contributors: Contributor[] = [
     photo: "/images/contributors/justin-prince.jpg",
     instagram: "https://www.instagram.com/iamjustinprince",
     facebook: "https://www.facebook.com/iamjustinprince.vm",
+    linkedin: "https://www.linkedin.com/in/justinkprince/",
   },
   {
     name: "Tyler Bastian",
