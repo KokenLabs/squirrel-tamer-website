@@ -141,6 +141,7 @@ const contributors: Contributor[] = [
     company: "StoneWorld Supply",
     website: "stoneworldsupply.com",
     photo: "/images/contributors/rhett-robison.jpg",
+    facebook: "https://www.facebook.com/rhett.robison.2025",
   },
   {
     name: "Brad Bonar",
