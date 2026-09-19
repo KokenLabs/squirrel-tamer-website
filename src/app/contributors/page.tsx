@@ -122,6 +122,13 @@ const contributors: Contributor[] = [
     website: "1degreeofseparation.life",
     photo: "/images/contributors/brad-bonar.jpg",
   },
+  {
+    name: "Steven Frame",
+    title: "Owner",
+    company: "Simply Bilt",
+    website: "simplybilt.com",
+    photo: "/images/contributors/steven-frame.jpg",
+  },
 ];
 
 function initials(name: string) {
