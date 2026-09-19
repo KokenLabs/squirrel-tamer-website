@@ -5,7 +5,7 @@ type Contributor = {
   name: string;
   title: string;
   company: string;
-  website: string;
+  website: string | null;
   photo: string | null;
 };
 
@@ -136,6 +136,13 @@ const contributors: Contributor[] = [
     website: "ppgpropertymanagement.com",
     photo: "/images/contributors/pat-petrini.jpg",
   },
+  {
+    name: "Jason Brown",
+    title: "Digital Marketing Consultant",
+    company: "Root Optimization",
+    website: null,
+    photo: "/images/contributors/jason-brown.jpg",
+  },
 ];
 
 function initials(name: string) {
@@ -187,14 +194,16 @@ export default function ContributorsPage() {
             <h2 className="mt-5 text-xl font-bold text-forest-900">{person.name}</h2>
             <p className="mt-1 text-sm font-semibold text-acorn-600">{person.title}</p>
             <p className="mt-1 text-sm text-forest-800/75">{person.company}</p>
-            <a
-              href={`https://${person.website}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 text-sm font-semibold text-forest-800 underline decoration-acorn-400 underline-offset-4 transition hover:text-acorn-600"
-            >
-              {person.website}
-            </a>
+            {person.website ? (
+              <a
+                href={`https://${person.website}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 text-sm font-semibold text-forest-800 underline decoration-acorn-400 underline-offset-4 transition hover:text-acorn-600"
+              >
+                {person.website}
+              </a>
+            ) : null}
           </div>
         ))}
       </div>
