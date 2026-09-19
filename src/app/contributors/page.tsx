@@ -7,6 +7,9 @@ type Contributor = {
   company: string;
   website: string | null;
   photo: string | null;
+  linkedin?: string;
+  instagram?: string;
+  facebook?: string;
 };
 
 const contributors: Contributor[] = [
@@ -157,7 +160,62 @@ const contributors: Contributor[] = [
     website: "newwave.realestate",
     photo: "/images/contributors/braden-breinholt.jpg",
   },
+  {
+    name: 'Tony "Mojo" Lucero',
+    title: "Founder",
+    company: "The Mojo Way",
+    website: "themojoway.com",
+    photo: "/images/contributors/tony-lucero.jpg",
+    linkedin: "https://www.linkedin.com/in/tonylucero/",
+    instagram: "https://www.instagram.com/iamtonylucero",
+    facebook: "https://www.facebook.com/iamtonylucero",
+  },
 ];
+
+const socialIcons: Record<string, JSX.Element> = {
+  linkedin: (
+    <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.65h.05c.53-.95 1.83-1.95 3.75-1.95 4 0 4.4 2.5 4.4 5.75V21h-4v-5.6c0-1.35-.03-3.1-1.9-3.1-1.9 0-2.2 1.48-2.2 3v5.7H9z" />
+  ),
+  facebook: (
+    <path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.29-.04-1.27-.13-2.41-.13-2.39 0-4.03 1.46-4.03 4.13V9.9H7.5V13h2.76v8z" />
+  ),
+  instagram: (
+    <>
+      <rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" strokeWidth="2" />
+      <circle cx="12" cy="12" r="3.8" fill="none" stroke="currentColor" strokeWidth="2" />
+      <circle cx="17.1" cy="6.9" r="1.3" />
+    </>
+  ),
+};
+
+function SocialLinks({ person }: { person: Contributor }) {
+  const links = [
+    { key: "linkedin", href: person.linkedin, label: "LinkedIn" },
+    { key: "instagram", href: person.instagram, label: "Instagram" },
+    { key: "facebook", href: person.facebook, label: "Facebook" },
+  ].filter((link) => Boolean(link.href));
+
+  if (links.length === 0) return null;
+
+  return (
+    <div className="mt-4 flex items-center justify-center gap-2.5">
+      {links.map((link) => (
+        <a
+          key={link.key}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`${person.name} on ${link.label}`}
+          className="flex h-8 w-8 items-center justify-center rounded-full border border-acorn-200 text-forest-800/70 transition hover:border-acorn-400 hover:bg-acorn-50 hover:text-acorn-600"
+        >
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-4 w-4">
+            {socialIcons[link.key]}
+          </svg>
+        </a>
+      ))}
+    </div>
+  );
+}
 
 function initials(name: string) {
   return name
@@ -218,6 +276,8 @@ export default function ContributorsPage() {
                 {person.website}
               </a>
             ) : null}
+
+            <SocialLinks person={person} />
           </div>
         ))}
       </div>
