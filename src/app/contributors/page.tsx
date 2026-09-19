@@ -30,6 +30,8 @@ const contributors: Contributor[] = [
     website: "enlight.energy",
     photo: "/images/contributors/julio-daniel-hernandez.jpg",
     linkedin: "https://www.linkedin.com/in/juliodanielhernandez/",
+    instagram: "https://www.instagram.com/juliodaniel_h/",
+    facebook: "https://www.facebook.com/julio.d.hernandez",
   },
   {
     name: "Jesse Gee",
