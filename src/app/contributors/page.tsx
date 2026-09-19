@@ -26,6 +26,7 @@ const contributors: Contributor[] = [
     company: "Enlight Energy",
     website: "enlight.energy",
     photo: "/images/contributors/julio-daniel-hernandez.jpg",
+    linkedin: "https://www.linkedin.com/in/juliodanielhernandez/",
   },
   {
     name: "Jesse Gee",
@@ -40,6 +41,8 @@ const contributors: Contributor[] = [
     company: "MAKE Wellness",
     website: "makewellness.com",
     photo: "/images/contributors/justin-prince.jpg",
+    instagram: "https://www.instagram.com/iamjustinprince",
+    facebook: "https://www.facebook.com/iamjustinprince.vm",
   },
   {
     name: "Tyler Bastian",
@@ -54,6 +57,7 @@ const contributors: Contributor[] = [
     company: "Scale Virtually",
     website: "scalevirtually.com",
     photo: "/images/contributors/sean-connolly.jpg",
+    linkedin: "https://www.linkedin.com/in/sean-connolly-950128",
   },
   {
     name: "Anthon Burbidge",
@@ -61,6 +65,9 @@ const contributors: Contributor[] = [
     company: "BC Timbers",
     website: "bctimbers.com",
     photo: "/images/contributors/anthon-burbidge.jpg",
+    linkedin: "https://www.linkedin.com/in/anthon-burbidge-03428734/",
+    instagram: "https://www.instagram.com/bctimbers",
+    facebook: "https://www.facebook.com/bctimbers",
   },
   {
     name: "Brittany Drury Brown",
@@ -68,6 +75,7 @@ const contributors: Contributor[] = [
     company: "LedgerGurus",
     website: "ledgergurus.com",
     photo: "/images/contributors/brittany-drury-brown.jpg",
+    linkedin: "https://www.linkedin.com/in/brittany-brown-b8324812/",
   },
   {
     name: "Scott Schwab",
@@ -75,6 +83,7 @@ const contributors: Contributor[] = [
     company: "Mett Wellness",
     website: "mettwellness.com",
     photo: "/images/contributors/scott-schwab.jpg",
+    linkedin: "https://www.linkedin.com/in/scott-schwab-8306713/",
   },
   {
     name: "Andy Lund",
@@ -82,6 +91,7 @@ const contributors: Contributor[] = [
     company: "VooDoo Hydration",
     website: "voodoohydration.com",
     photo: "/images/contributors/andy-lund.jpg",
+    linkedin: "https://www.linkedin.com/in/andy-lund-8a915a23/",
   },
   {
     name: "Koby Taylor",
@@ -89,6 +99,7 @@ const contributors: Contributor[] = [
     company: "Fusion Specialty Pharmacy",
     website: "fusionspecialtypharmacy.com",
     photo: "/images/contributors/koby-taylor.jpg",
+    linkedin: "https://www.linkedin.com/in/kobytaylor/",
   },
   {
     name: "Christopher John Stubbs",
@@ -103,6 +114,7 @@ const contributors: Contributor[] = [
     company: "Enerflo",
     website: "enerflo.com",
     photo: "/images/contributors/spencer-oberan.jpg",
+    linkedin: "https://www.linkedin.com/in/spencer-oberan-3734902b/",
   },
   {
     name: "Paul Hatch",
@@ -110,6 +122,7 @@ const contributors: Contributor[] = [
     company: "Allies",
     website: "alliesusa.com",
     photo: "/images/contributors/paul-hatch.jpg",
+    linkedin: "https://www.linkedin.com/in/paul-hatch-84b4608/",
   },
   {
     name: "Rhett Robison",
@@ -124,6 +137,7 @@ const contributors: Contributor[] = [
     company: "1 Degree",
     website: "1degreeofseparation.life",
     photo: "/images/contributors/brad-bonar.jpg",
+    linkedin: "https://www.linkedin.com/in/brad-bonar-jr-25075074/",
   },
   {
     name: "Steven Frame",
@@ -138,6 +152,7 @@ const contributors: Contributor[] = [
     company: "PPG Property Management",
     website: "ppgpropertymanagement.com",
     photo: "/images/contributors/pat-petrini.jpg",
+    linkedin: "https://www.linkedin.com/in/patpetrini/",
   },
   {
     name: "Jason Brown",
@@ -152,6 +167,7 @@ const contributors: Contributor[] = [
     company: "Investview",
     website: "investview.com",
     photo: "/images/contributors/chad-garner.jpg",
+    linkedin: "https://www.linkedin.com/in/chadgarner1/",
   },
   {
     name: "Braden Breinholt",
