@@ -31,6 +31,22 @@ const contributors: Contributor[] = [
     ],
   },
   {
+    name: "Jennifer Yeo",
+    title: "CEO",
+    company: "Presidio Real Estate",
+    website: "presidioteam.com",
+    photo: "/images/contributors/jennifer-yeo.jpg",
+    linkedin: "https://www.linkedin.com/in/jenniferyeoutahbroker/",
+    instagram: "https://www.instagram.com/itsjenniferyeo/",
+    facebook: "https://www.facebook.com/jenniferyeo123",
+    bio: [
+      "In 18 years in the real estate business, I have had many growing experiences, all of which I have welcomed. I believe if you are not growing, you are dead. When I have been in moments of stress and uncertainty, I remember, this is growth and the skills I acquired through it. I have served on the Women’s Council of Realtors Local Chapter President 2 years in a row, State Governor for WCR, Board of Directors Utah County and Executive Committee Utah County. I love a good challenge and search for opportunities to become a better version of myself and maximize leadership skills.",
+      "I specialize in Luxury Real Estate and 2nd Home Sales and thoroughly enjoy helping others with some of their largest and most valuable assets.",
+      "I started my brokerage Presidio Real Estate in 2011 and have 500 excellent agents and 14 locations across the Wasatch Front. The future is bright and our goals get bigger every year. I love what I do and have found my genius in helping agents grow their business and succeed, all the while, providing a platform where they can thrive.",
+      "Utah County: Alpine | American Fork | Bluffdale | Cedar Fort | Cedar Hills | Fairfield | Cedar Fort | Draper | Eagle Mountain | Elk Ridge | Fairfield | Genola | Goshen | Highland | Lehi | Linden | Mapleton | Orem | Payson | Pleasant Grove | Provo | Salem | Santaquin | Saratoga Springs | Spanish Fork | Springville | Vineyard | Woodland Hills",
+    ],
+  },
+  {
     name: "Julio Daniel Hernandez",
     title: "CEO",
     company: "Enlight Energy",
