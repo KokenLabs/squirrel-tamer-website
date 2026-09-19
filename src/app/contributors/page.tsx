@@ -17,6 +17,13 @@ const contributors: Contributor[] = [
     website: "beaconofhope.org",
     photo: "/images/contributors/alan-jackson.jpg",
   },
+  {
+    name: "Julio Daniel Hernandez",
+    title: "CEO",
+    company: "Enlight Energy",
+    website: "enlight.energy",
+    photo: "/images/contributors/julio-daniel-hernandez.jpg",
+  },
 ];
 
 function initials(name: string) {
