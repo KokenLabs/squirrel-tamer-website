@@ -66,6 +66,13 @@ const contributors: Contributor[] = [
     website: "ledgergurus.com",
     photo: "/images/contributors/brittany-drury-brown.jpg",
   },
+  {
+    name: "Scott Schwab",
+    title: "Founder",
+    company: "Mett Wellness",
+    website: "mettwellness.com",
+    photo: "/images/contributors/scott-schwab.jpg",
+  },
 ];
 
 function initials(name: string) {
