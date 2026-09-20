@@ -5,9 +5,9 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Squirrel Tamer — AI Tames the Squirrel",
+  title: "Squirrel Tamer — Turn a Scattered Mind Into Finished Work",
   description:
-    "Squirrel Tamer is the AI-powered playbook that turns scattered focus into shipped work — for the ADHD, multi-passionate, and endlessly curious.",
+    "For the scattered, the curious, and the endlessly interested. A system for turning the ideas you chase into work you actually ship.",
 };
 
 export default function RootLayout({

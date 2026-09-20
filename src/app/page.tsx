@@ -7,8 +7,8 @@ const steps = [
     body: "Dump every idea, tab, and half-finished project out of your head and into one place. Nothing gets lost — it just gets organized.",
   },
   {
-    title: "Deputize the help",
-    body: "Hand off the work that doesn't need you — the triaging, drafting, researching and reminding. Tools, routines and the people around you carry the load, so willpower isn't the only thing holding your day together.",
+    title: "Hand off the busywork",
+    body: "The triaging, drafting, researching and reminding don't need you personally. Tools, routines and the people around you carry that load, so willpower isn't the only thing holding your day together.",
   },
   {
     title: "Run the Tamer Playbook",
@@ -51,14 +51,14 @@ export default function HomePage() {
   return (
     <>
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-16 sm:pt-24">
-        <div className="max-w-3xl">
+        <div className="max-w-4xl">
           <p className="inline-flex items-center gap-2 rounded-full bg-forest-100 px-4 py-1.5 text-sm font-semibold text-forest-700">
             🐿️ Coming soon — The Squirrel Tamer &amp; the Tamer Playbook
           </p>
-          <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-forest-900 sm:text-6xl">
-            The squirrel isn’t the problem. Letting it run loose is.
+          <h1 className="mt-6 text-3xl font-extrabold leading-tight tracking-tight text-forest-900 sm:whitespace-nowrap sm:text-[clamp(2rem,5vw,3.25rem)]">
+            The Squirrel is NOT the problem.
           </h1>
-          <p className="mt-6 text-lg leading-relaxed text-forest-800/80 sm:text-xl">
+          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-forest-800/80 sm:text-xl">
             Squirrel Tamer is for the scattered, the curious, and the endlessly
             interested. You don’t need fewer ideas or more willpower — you need a
             way to turn the chase into finished work.
