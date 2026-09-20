@@ -7,8 +7,8 @@ const steps = [
     body: "Dump every idea, tab, and half-finished project out of your head and into one place. Nothing gets lost — it just gets organized.",
   },
   {
-    title: "Deputize your AI",
-    body: "Set up an AI stack that acts as your focus copilot: triaging, drafting, researching, and reminding — so willpower isn't the only thing holding your day together.",
+    title: "Deputize the help",
+    body: "Hand off the work that doesn't need you — the triaging, drafting, researching and reminding. Tools, routines and the people around you carry the load, so willpower isn't the only thing holding your day together.",
   },
   {
     title: "Run the Tamer Playbook",
@@ -27,7 +27,7 @@ const pillars = [
   {
     label: "The Book",
     title: "The Squirrel Tamer",
-    body: "How to Make S.O.S. (Shiny Object Syndrome) Your Superpower! — the full story, the mindset shift, and the case for letting AI do the taming.",
+    body: "How to Make S.O.S. (Shiny Object Syndrome) Your Superpower! — the full story, the mindset shift, and the case for training a scattered mind instead of fighting it.",
     href: "/book",
     cta: "About the book",
   },
@@ -56,12 +56,12 @@ export default function HomePage() {
             🐿️ Coming soon — The Squirrel Tamer &amp; the Tamer Playbook
           </p>
           <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-forest-900 sm:text-6xl">
-            AI is the tool that tames the squirrel.
+            The squirrel isn’t the problem. Letting it run loose is.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-forest-800/80 sm:text-xl">
             Squirrel Tamer is for the scattered, the curious, and the endlessly
-            interested. If your brain chases every shiny idea, AI can finally be the
-            thing that turns that chase into momentum — not more chaos.
+            interested. You don’t need fewer ideas or more willpower — you need a
+            way to turn the chase into finished work.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
