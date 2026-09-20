@@ -3,16 +3,20 @@ import EmailSignup from "@/components/EmailSignup";
 
 const steps = [
   {
-    title: "Corral the squirrels",
-    body: "Dump every idea, tab, and half-finished project out of your head and into one place. Nothing gets lost — it just gets organized.",
+    title: "Catch",
+    body: "An idea shows up. Get it out of your head and captured in ten seconds, so it stops taking up room.",
   },
   {
-    title: "Hand off the busywork",
-    body: "The triaging, drafting, researching and reminding don't need you personally. Tools, routines and the people around you carry that load, so willpower isn't the only thing holding your day together.",
+    title: "Check",
+    body: "One question: does this help what I'm working on right now? If yes, it joins that work. If no, it gets parked.",
   },
   {
-    title: "Run the Tamer Playbook",
-    body: "Follow a repeatable system for turning scattered interest into shipped work, one sprint at a time — without forcing yourself to 'just focus more.'",
+    title: "Park",
+    body: "Parked ideas are held, not lost. You go straight back to whatever you were already doing.",
+  },
+  {
+    title: "Return",
+    body: "The idea comes back after the excitement cools, or when you actually have room. Then you decide: build it, bank it, or bin it.",
   },
 ];
 
@@ -34,7 +38,7 @@ const pillars = [
   {
     label: "The Method",
     title: "Tamer Playbook",
-    body: "The five-phase system itself: capture, deputize, sprint, ship, repeat. The practical, run-it-this-week version.",
+    body: "The four-step system itself: catch, check, park, return. The practical, run-it-this-week version.",
     href: "/playbook",
     cta: "See the Playbook",
   },
@@ -106,9 +110,9 @@ export default function HomePage() {
           How it works
         </h2>
         <p className="mt-3 max-w-2xl text-2xl font-bold text-forest-900">
-          Three moves. One system. A lot fewer abandoned projects.
+          Four moves. One system.
         </p>
-        <div className="mt-10 grid gap-6 sm:grid-cols-3">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, i) => (
             <div key={step.title} className="rounded-3xl border border-acorn-200 bg-white p-6">
               <span className="text-sm font-semibold text-acorn-500">0{i + 1}</span>
