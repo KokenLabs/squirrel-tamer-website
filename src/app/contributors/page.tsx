@@ -295,6 +295,40 @@ const contributors: Contributor[] = [
     facebook: "https://www.facebook.com/coachadnan",
     instagram: "https://www.instagram.com/skyvistaconsulting",
   },
+  {
+    name: "Nathan Preheim",
+    title: "Founder",
+    company: "Prof P",
+    website: "profp.co",
+    photo: "/images/contributors/nathan-preheim.jpg",
+    linkedin: "https://www.linkedin.com/company/prof-p/",
+    instagram: "https://www.instagram.com/profpnathan/",
+    facebook: "https://www.facebook.com/nathan.preheim",
+    bio: [
+      "Entrepreneurship isn’t about waiting for permission. It’s about seeing opportunity and taking action.",
+      "Nathan Preheim is an entrepreneur, investor, and educator, and serves as Director of the Greisch Center for Enterprise Value at Creighton University.",
+      "Prof P is his content platform — short-form startup lessons, whiteboard frameworks, and applied innovation insights covering entrepreneurship, customer discovery, side hustles, intrapreneurship, and the founder mindset required to build meaningful things. The goal is simple: help more people move from ideas to action.",
+    ],
+  },
+  {
+    name: "BD Erickson",
+    title: "CEO",
+    company: "Satic USA, Inc.",
+    website: "saticshield.com",
+    photo: "/images/contributors/bd-erickson.jpg",
+    linkedin: "https://www.linkedin.com/in/b-d-erickson-ii-a5362621/",
+    instagram: "https://www.instagram.com/b.d.erickson/",
+    facebook: "https://www.facebook.com/b.d.erickson.ii",
+    bio: [
+      "We have the dream job — as American engineers we’ve been blessed to design and manufacture our own line of clean-power products that we call Power Perfect.",
+      "Driven by a passionate belief that dirty electricity is inefficient, wasteful, and harmful to electronics and equipment, we’ve engineered the finest line of clean power electricity filters on the planet. The full line has been third-party validated and tested, and every solar installation performs better with our product.",
+      "Our product line consists of Power Perfect energy management systems, Satic Solar’s Power Pod — the fully engineered and pre-assembled solar array — as well as our award-winning Power Perfect LEDs, custom Satic Solar systems, and Satic Shield multi-layer insulation.",
+      "We love what we do, back all claims, honor all warranties, and stand behind the products we’ve made with pride in Big Sky Country.",
+      "The goal ultimately is to be successful in business. Our daily focus is to be the best at what we do and C.A.N.I. — progressively growing better. We accomplish this in part by building an ever-expanding line of UL-listed, energy-saving products in the USA that consistently outperform the competition.",
+      "Consistent goals for our team: build a high-quality product line engineered unlike anything else; source quality components, U.S.-made when possible; manufacture locally; keep pushing boundaries by adding to our line, our team, and our market; and be profitable — which means both sales and happy customers.",
+      "By building in the U.S., we help drive our local economy with jobs that people love and are proud of — and in some small part the U.S. economy, as our customers are worldwide.",
+    ],
+  },
 ];
 
 const socialIcons: Record<string, JSX.Element> = {
