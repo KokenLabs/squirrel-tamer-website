@@ -136,7 +136,7 @@ const contributors: Contributor[] = [
   {
     name: "Scott Schwab",
     title: "Founder",
-    company: "Mett Wellness",
+    company: "Mett Wellness, Mett Naturals, Bottega",
     website: "mettwellness.com",
     photo: "/images/contributors/scott-schwab.jpg",
     linkedin: "https://www.linkedin.com/in/scott-schwab-8306713/",
