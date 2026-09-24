@@ -71,7 +71,7 @@ const contributors: Contributor[] = [
   },
   {
     name: "Jesse Gee",
-    title: "Co-Founder & CEO",
+    title: "Founder & CEO",
     company: "Photon AC",
     website: "photonac.com",
     photo: "/images/contributors/jesse-gee.jpg",
@@ -79,9 +79,9 @@ const contributors: Contributor[] = [
     facebook: "https://www.facebook.com/jessegeeaz",
     instagram: "https://www.instagram.com/jessegeearizona/",
     bio: [
-      "Co-Founder & CEO of Photon AC, building solar-integrated hybrid mini-split & ducted HVAC systems distributed through a dealer network. Nearly 30 years founding and scaling companies across financial and home services industries — turning early-stage operations into category leaders through direct execution.",
-      "Currently focused on: DC-native power architecture, dealer channel strategy, and go-to-market systems for next-gen HVAC.",
-      "Open to connecting with HVAC dealers, solar installers, tiny home / ADU builders, and other channel partners.",
+      "Jesse Gee is the Founder and CEO of Photon AC, where he’s building solar-integrated hybrid mini-split and ducted HVAC systems — engineering the DC-native power architecture from the ground up and taking it to market through a nationwide dealer network. It’s the latest chapter in nearly three decades of founding and scaling companies across financial services and energy.",
+      "A high school dropout, Jesse founded his first company, Freestand Financial Holding Corporation, in his early twenties — building it into a diversified financial services conglomerate spanning mortgage banking, insurance, and other lines, with over 1,000 employees and more than $10 billion in originations, before it was acquired by private equity. He then spent three years as Managing Partner at Venture Commercial, arranging debt and equity financing for commercial borrowers nationwide, before going on to found Erus Energy and build it into a fully integrated solar company with locations across the U.S., which was acquired by private equity in 2016.",
+      "Today, in addition to managing Photon AC, he also oversees the Gee Family Investment Office, partnering with entrepreneurs through capital, operating experience, and strategic guidance — a portfolio that has produced three additional private equity exits, spanning medical devices and home services. Jesse lives in Paradise Valley, Arizona, with his wife of 32 years — his high school sweetheart — and their three children, whom he’s now passing the entrepreneurial playbook on to. The throughline across every venture has been the same: take an early-stage operation and turn it into a category leader through direct, hands-on execution.",
     ],
   },
   {
@@ -220,10 +220,10 @@ const contributors: Contributor[] = [
     ],
   },
   {
-    name: "Steven Frame",
-    title: "Owner",
-    company: "Simply Bilt",
-    website: "simplybilt.com",
+    name: "Steven J. Frame",
+    title: "GC/Owner",
+    company: "Monolithic Foam and Stone Pools",
+    website: null,
     photo: "/images/contributors/steven-frame.jpg",
     linkedin: "https://www.linkedin.com/in/thefraamer/",
     instagram: "https://www.instagram.com/thefraamer/",
@@ -311,7 +311,7 @@ const contributors: Contributor[] = [
     ],
   },
   {
-    name: "BD Erickson",
+    name: "B.D. Erickson II",
     title: "CEO",
     company: "Satic USA, Inc.",
     website: "saticshield.com",
