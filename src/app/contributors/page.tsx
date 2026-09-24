@@ -329,6 +329,18 @@ const contributors: Contributor[] = [
       "By building in the U.S., we help drive our local economy with jobs that people love and are proud of — and in some small part the U.S. economy, as our customers are worldwide.",
     ],
   },
+  {
+    name: "Scott Stebbing",
+    title: "Owner",
+    company: "MAV Business Advisors",
+    website: null,
+    photo: "/images/contributors/scott-stebbing.jpg",
+    linkedin: "https://www.linkedin.com/in/scott-w-stebbing-3691173a5/",
+    facebook: "https://www.facebook.com/sstebbing",
+    bio: [
+      "After 45 years in the Office Technology Industry and a successful exit, I felt drawn to provide assistance to business owners that are looking for guidance as to what next steps are possible to either grow their business, improve their operations or help in finding an exit plan.",
+    ],
+  },
 ];
 
 const socialIcons: Record<string, JSX.Element> = {
