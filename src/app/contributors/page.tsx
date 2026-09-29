@@ -236,10 +236,9 @@ const contributors: Contributor[] = [
     website: "ppgpropertymanagement.com",
     photo: "/images/contributors/pat-petrini.jpg",
     linkedin: "https://www.linkedin.com/in/patpetrini/",
-    instagram: "https://www.instagram.com/patpetrini/",
     facebook: "https://www.facebook.com/PatPetrini",
     bio: [
-      "If there’s anything that isn’t working, it’s Pat’s fault! Pat is constantly fine-tuning our systems & processes with the obsession of a master watchmaker. When he’s not tinkering with our processes, he’s out there turning curious property owners into happy clients.",
+      "Pat has always been pulled towards opportunities that combine learning something new with financial opportunity; an attraction that has created an eclectic career path. That journey took him from sales leadership and training to becoming a best-selling author to real estate investing and eventually into property management. In 2019, he and his wife were at a “fork in the road” and they decided to liquidate everything and take their two boys on what became a 2.5-year family road trip across the country. Pat now runs PPG Property Management with approximately 800 properties under management in the Phoenix market.",
     ],
   },
   {
