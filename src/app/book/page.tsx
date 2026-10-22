@@ -1,6 +1,35 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import EmailSignup from "@/components/EmailSignup";
+
+export const metadata: Metadata = {
+  title: "The Squirrel Tamer — the book",
+  description:
+    "How to Make S.O.S. (Shiny Object Syndrome) Your Superpower. Join the waitlist for early chapters, the AI stack breakdown, and launch updates.",
+  openGraph: {
+    type: "book",
+    url: "/book",
+    title: "The Squirrel Tamer — join the waitlist",
+    description:
+      "Early chapters, the AI stack breakdown, and launch updates. No spam, just signal.",
+    images: [
+      {
+        url: "/images/og-book.jpg",
+        width: 1200,
+        height: 630,
+        alt: "The Squirrel Tamer — How to Make S.O.S. Your Superpower, by Steve Haycock",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Squirrel Tamer — join the waitlist",
+    description:
+      "Early chapters, the AI stack breakdown, and launch updates. No spam, just signal.",
+    images: ["/images/og-book.jpg"],
+  },
+};
 
 export default function BookPage() {
   return (
